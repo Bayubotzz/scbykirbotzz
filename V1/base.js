@@ -443,13 +443,13 @@ vcard2 = 'BEGIN:VCARD\n' +
             `item1.TEL;waid=${owner}:${owner}\n` +
             `item1.X-ABLabel:👑 Creator\n` +
             `item2.EMAIL;type=INTERNET:tesheroku123@gmail.com\n` +
-            `item2.X-ABLabel:📧 Email\n` +
-            `item3.URL:https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg/\n` +
-            `item3.X-ABLabel:⚙️ Channel Owner\n` +
+            `item2.X-ABLabel:📧 Bayurizkyananda888@gmail.com Email\n` +
+            `item3.URL:https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ\n` +
+            `item3.X-ABLabel:⚙️ BAYU OFC Channel Owner\n` +
             `item4.ADR:;;🇮🇩 Indonesia;;;;\n` +
             `item4.X-ABADR:ac\n` +
             `item4.X-ABLabel:🌍 Region\n` +
-            `item5.X-ABLabel:⚔️ Kir - Botz Developer\n` +
+            `item5.X-ABLabel:⚔️ BAYU OFC Developer\n` +
             'END:VCARD'.trim()
 KirBotz.sendMessage(from, {displayName: `Creator Akira`, vcard: vcard2}, contact, 
 { quoted: fgi, 
@@ -464,19 +464,19 @@ buttons: [
 headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: nilogoowner, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'ytowner':
-reply (`*Subrek Kak*\nhttps://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`)
+reply (`*Subrek Kak*\nhttps://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`)
 break
 case 'igowner':
-reply (`*Follow Kak*\nhttps://www.instagram.com/kirbotzx/`)
+reply (`*Follow Kak*\nhttps://www.instagram.com/bayuganz_665/`)
 break
 case 'ttowner':
-reply (`*Follow Kak*\nhttps://vt.tiktok.com/ZSeuqHvL5/`)
+reply (`*Follow Kak*\nhttps://vt.tiktok.com/bayuganz_65/`)
 break
 case 'gtowner':
-reply (`*Follow Kak*\nhttps://github.com/KrBtz/`)
+reply (`*Follow Kak*\nhttps://github.com/BayuuOFC/`)
 break
 case 'gckirbotz':
-reply (`*Join Kak*\nhttps://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ`)
+reply (`*Join Kak*\nhttps://chat.whatsapp.com/Gj0kHatV2AoFyL2WyTTv2o`)
 break
 case 'runtime':
 reply(`Aktip Selama ${runtime(process.uptime())}\n\n${wib} *WIB*\n${wit} *WIT*\n${wita} *WITA*`)
@@ -587,7 +587,7 @@ footerText: `*╭──「 INFO USER 」*
 *│ Wit :* ${wit}
 *╰──────────────*
  ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: '< COMMAND >' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: nilogomenu, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 case 't':
 listMsg = {
@@ -651,73 +651,73 @@ sections: [
  rows: [
 {
 "title": `ALL MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}allmenu`
 }
 ,
 {
 "title": `OWNER MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}ownermenu`
 }
 ,
 {
 "title": `GROUP MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}groupmenu`
 }
 ,
 {
 "title": `MAKER MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}makermenu`
 }
 ,
 {
 "title": `OTHER MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}othermenu`
 }
 ,
 {
 "title": `DOWNLOAD MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}downloadmenu`
 }
 ,
 {
 "title": `STICKER MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}stickermenu`
 }
 ,
 {
 "title": `GAME MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}gamemenu`
 }
 ,
 {
 "title": `18+ MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}18+menu`
 }
 ,
 {
 "title": `ASUPAN MENU`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}asupanmenu`
 }
 ,
 {
 "title": `SEWA BOT`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}sewabot`
 }
 ,
 {
 "title": `DONASI BOT`,
-"description": `Subrek Kak : https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"description": `Subrek Kak : https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ`,
 "rowId": `${prefix}donasi`
 }
 ]
@@ -734,7 +734,7 @@ thu = await KirBotz.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageT
 menuh = `${ucapanWaktu} 𝐊𝐚𝐤 @${sender.split('@')[0]}`
 KirBotz.sendMessage(from, { contentText: `${menuh}`, 
 footerText: `*╭──「 GROUP MENU 」*
-*✗⃝* ${prefix}add *6218317882889*
+*✗⃝* ${prefix}add *629525518325*
 *✗⃝* ${prefix}kick *@tag*
 *✗⃝* ${prefix}welcome *button*
 *✗⃝* ${prefix}antilink *button*
@@ -747,7 +747,7 @@ footerText: `*╭──「 GROUP MENU 」*
 *✗⃝* ${prefix}tagall
 *✗⃝* ${prefix}hidetag
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「  *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftogroup, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'makermenu':
@@ -758,53 +758,53 @@ thu = await KirBotz.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageT
 menuh = `${ucapanWaktu} 𝐊𝐚𝐤 @${sender.split('@')[0]}`
 KirBotz.sendMessage(from, { contentText: `${menuh}`, 
 footerText: `*╭──「 MAKER MENU 」*
-*✗⃝* ${prefix}coolgravity *Akira*
-*✗⃝* ${prefix}pornhub *Akira Botz*
-*✗⃝* ${prefix}glitch *Akira Botz*
-*✗⃝* ${prefix}avenger *Akira Botz*
-*✗⃝* ${prefix}space *Akira Botz*
-*✗⃝* ${prefix}ninjalogo *Akira Botz*
-*✗⃝* ${prefix}marvelstudio *Akira Botz*
-*✗⃝* ${prefix}lionlogo *Akira Botz*
-*✗⃝* ${prefix}wolflogo *Akira Botz*
-*✗⃝* ${prefix}steel3d *Akira Botz*
-*✗⃝* ${prefix}wallgravity *Akira Botz*
-*✗⃝* ${prefix}tiktok *Akira Botz*
-*✗⃝* ${prefix}arcade8bit *Akira Botz*
-*✗⃝* ${prefix}battlefield4 *Akira Botz*
-*✗⃝* ${prefix}pubg *Akira Botz*
-*✗⃝* ${prefix}blackpink *Akira*
-*✗⃝* ${prefix}neon *Akira*
-*✗⃝* ${prefix}greenneon *Akira*
-*✗⃝* ${prefix}advanceglow *Akira*
-*✗⃝* ${prefix}futureneon *Akira*
-*✗⃝* ${prefix}sandwriting *Akira*
-*✗⃝* ${prefix}sandsummer *Akira*
-*✗⃝* ${prefix}sandengraved *Akira*
-*✗⃝* ${prefix}metaldark *Akira*
-*✗⃝* ${prefix}neonlight *Akira*
-*✗⃝* ${prefix}holographic *Akira*
-*✗⃝* ${prefix}text1917 *Akira*
-*✗⃝* ${prefix}minion *Akira*
-*✗⃝* ${prefix}deluxesilver *Akira*
-*✗⃝* ${prefix}newyearcard *Akira*
-*✗⃝* ${prefix}bloodfrosted *Akira*
-*✗⃝* ${prefix}halloween *Akira*
-*✗⃝* ${prefix}jokerlogo *Akira*
-*✗⃝* ${prefix}fireworksparkle *Akira*
-*✗⃝* ${prefix}natureleaves *Akira*
-*✗⃝* ${prefix}bokeh *Akira*
-*✗⃝* ${prefix}toxic *Akira*
-*✗⃝* ${prefix}strawberry *Akira*
-*✗⃝* ${prefix}box3d *Akira*
-*✗⃝* ${prefix}roadwarning *Akira*
-*✗⃝* ${prefix}breakwall *Akira*
-*✗⃝* ${prefix}icecold *Akira*
-*✗⃝* ${prefix}luxury *Akira*
-*✗⃝* ${prefix}cloud *Akira*
-*✗⃝* ${prefix}summersand *Akira*
-*✗⃝* ${prefix}horrorblood *Akira*
-*✗⃝* ${prefix}thunder *Akira*
+*✗⃝* ${prefix}coolgravity *Bayu*
+*✗⃝* ${prefix}pornhub *Mikasa Botz*
+*✗⃝* ${prefix}glitch *Mikasa Botz*
+*✗⃝* ${prefix}avenger *Mikasa Botz*
+*✗⃝* ${prefix}space *Mikasa Botz*
+*✗⃝* ${prefix}ninjalogo *Mikasa Botz*
+*✗⃝* ${prefix}marvelstudio *Mikasa Botz*
+*✗⃝* ${prefix}lionlogo *Mikasa Botz*
+*✗⃝* ${prefix}wolflogo *Mikasa Botz*
+*✗⃝* ${prefix}steel3d *Mikasa Botz*
+*✗⃝* ${prefix}wallgravity *Mikasa Botz*
+*✗⃝* ${prefix}tiktok *Mikasa Botz*
+*✗⃝* ${prefix}arcade8bit *Mikasa Botz*
+*✗⃝* ${prefix}battlefield4 *Mikasa Botz*
+*✗⃝* ${prefix}pubg *Mikasa Botz*
+*✗⃝* ${prefix}blackpink *Mikasa Botz*
+*✗⃝* ${prefix}neon *Mikasa Botz*
+*✗⃝* ${prefix}greenneon *Mikasa Botz*
+*✗⃝* ${prefix}advanceglow *Mikasa Botz*
+*✗⃝* ${prefix}futureneon *BAYU OFC*
+*✗⃝* ${prefix}sandwriting *BAYU OFC*
+*✗⃝* ${prefix}sandsummer *BAYU OFC*
+*✗⃝* ${prefix}sandengraved *BAYU OFC*
+*✗⃝* ${prefix}metaldark *BAYU OFC*
+*✗⃝* ${prefix}neonlight *BAYU OFC*
+*✗⃝* ${prefix}holographic *BAYU OFC*
+*✗⃝* ${prefix}text1917 *BAYU OFC*
+*✗⃝* ${prefix}minion *BAYU OFC*
+*✗⃝* ${prefix}deluxesilver *BAYU OFC*
+*✗⃝* ${prefix}newyearcard *BAYU OFC*
+*✗⃝* ${prefix}bloodfrosted *BAYU OFC*
+*✗⃝* ${prefix}halloween *BAYU OFC*
+*✗⃝* ${prefix}jokerlogo *BAYU OFC*
+*✗⃝* ${prefix}fireworksparkle *BAYU OFC*
+*✗⃝* ${prefix}natureleaves *BAYU OFC*
+*✗⃝* ${prefix}bokeh *BAYU OFC*
+*✗⃝* ${prefix}toxic *BAYU OFC*
+*✗⃝* ${prefix}strawberry *BAYU OFC*
+*✗⃝* ${prefix}box3d *BAYU OFC*
+*✗⃝* ${prefix}roadwarning *BAYU OFC*
+*✗⃝* ${prefix}breakwall *BAYU OFC*
+*✗⃝* ${prefix}icecold *BAYU OFC*
+*✗⃝* ${prefix}luxury *BAYU OFC*
+*✗⃝* ${prefix}cloud *BAYU OFC*
+*✗⃝* ${prefix}summersand *BAYU OFC*
+*✗⃝* ${prefix}horrorblood *BAYU OFC*
+*✗⃝* ${prefix}thunder *BAYU OFC*
 *✗⃝* ${prefix}shadow
 *✗⃝* ${prefix}cup
 *✗⃝* ${prefix}cup1
@@ -859,7 +859,7 @@ footerText: `*╭──「 MAKER MENU 」*
 *✗⃝* ${prefix}silverplaybutton
 *✗⃝* ${prefix}freefire
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftomaker, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'stickermenu':
@@ -894,7 +894,7 @@ footerText: `*╭──「 STICKER MENU 」*
 *✗⃝* ${prefix}hsdxd
 *✗⃝* ${prefix}meme
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftosticker, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'ownermenu':
@@ -911,7 +911,7 @@ footerText: `*╭──「 OWNER MENU 」*
 *✗⃝* ${prefix}mode
 *✗⃝* ${prefix}join *linkgc*
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftoowner, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case '18+menu':
@@ -989,7 +989,7 @@ footerText: `*╭──「 18+ MENU 」*
 *✗⃝* ${prefix}kemonomimi
 *✗⃝* ${prefix}nsfw_avatar
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftoples, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'downloadmenu':
@@ -1009,7 +1009,7 @@ footerText: `*╭──「 DOWNLOAD MENU 」*
 *✗⃝* ${prefix}igdl *linkIG*
 *✗⃝* ${prefix}mediafire *link*
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftodownload, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'othermenu':
@@ -1030,7 +1030,7 @@ footerText: `*╭──「 OTHER MENU 」*
 *✗⃝* ${prefix}jadwalsholat *Yogyakarta*
 *✗⃝* ${prefix}lirik *Judul Lagu*
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftoother, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'gamemenu':
@@ -1055,7 +1055,7 @@ footerText: `*╭──「 GAME MENU 」*
 *✗⃝* ${prefix}tebakgambar
 *✗⃝* ${prefix}family100
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftogame, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'asupanmenu':
@@ -1081,7 +1081,7 @@ footerText: `*╭──「 ASUPAN MENU 」*
 *✗⃝* ${prefix}cecanindonesia
 *✗⃝* ${prefix}cecanthailand
 *╰─────────────*
- 「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」
+ 「 *MIKASA-BOT* 」
 `, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'メ O メ' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ftoasupan, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'allmenu':
@@ -1127,7 +1127,7 @@ thu = await KirBotz.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageT
 *✗⃝* ${prefix}lirik *Judul Lagu*
 *╰─────────────*
 *╭──「 GROUP MENU 」*
-*✗⃝* ${prefix}add *6218317882889*
+*✗⃝* ${prefix}add *6289525518325*
 *✗⃝* ${prefix}kick *@tag*
 *✗⃝* ${prefix}welcome *button*
 *✗⃝* ${prefix}antilink *button*
@@ -1142,53 +1142,53 @@ thu = await KirBotz.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageT
 *✗⃝* ${prefix}hidetag
 *╰─────────────*
 *╭──「 MAKER MENU 」*
-*✗⃝* ${prefix}coolgravity *Akira*
-*✗⃝* ${prefix}pornhub *Akira Botz*
-*✗⃝* ${prefix}glitch *Akira Botz*
-*✗⃝* ${prefix}avenger *Akira Botz*
-*✗⃝* ${prefix}space *Akira Botz*
-*✗⃝* ${prefix}ninjalogo *Akira Botz*
-*✗⃝* ${prefix}marvelstudio *Akira Botz*
-*✗⃝* ${prefix}lionlogo *Akira Botz*
-*✗⃝* ${prefix}wolflogo *Akira Botz*
-*✗⃝* ${prefix}steel3d *Akira Botz*
-*✗⃝* ${prefix}wallgravity *Akira Botz*
-*✗⃝* ${prefix}tiktok *Akira Botz*
-*✗⃝* ${prefix}arcade8bit *Akira Botz*
-*✗⃝* ${prefix}battlefield4 *Akira Botz*
-*✗⃝* ${prefix}pubg *Akira Botz*
-*✗⃝* ${prefix}blackpink *Akira*
-*✗⃝* ${prefix}neon *Akira*
-*✗⃝* ${prefix}greenneon *Akira*
-*✗⃝* ${prefix}advanceglow *Akira*
-*✗⃝* ${prefix}futureneon *Akira*
-*✗⃝* ${prefix}sandwriting *Akira*
-*✗⃝* ${prefix}sandsummer *Akira*
-*✗⃝* ${prefix}sandengraved *Akira*
-*✗⃝* ${prefix}metaldark *Akira*
-*✗⃝* ${prefix}neonlight *Akira*
-*✗⃝* ${prefix}holographic *Akira*
-*✗⃝* ${prefix}text1917 *Akira*
-*✗⃝* ${prefix}minion *Akira*
-*✗⃝* ${prefix}deluxesilver *Akira*
-*✗⃝* ${prefix}newyearcard *Akira*
-*✗⃝* ${prefix}bloodfrosted *Akira*
-*✗⃝* ${prefix}halloween *Akira*
-*✗⃝* ${prefix}jokerlogo *Akira*
-*✗⃝* ${prefix}fireworksparkle *Akira*
-*✗⃝* ${prefix}natureleaves *Akira*
-*✗⃝* ${prefix}bokeh *Akira*
-*✗⃝* ${prefix}toxic *Akira*
-*✗⃝* ${prefix}strawberry *Akira*
-*✗⃝* ${prefix}box3d *Akira*
-*✗⃝* ${prefix}roadwarning *Akira*
-*✗⃝* ${prefix}breakwall *Akira*
-*✗⃝* ${prefix}icecold *Akira*
-*✗⃝* ${prefix}luxury *Akira*
-*✗⃝* ${prefix}cloud *Akira*
-*✗⃝* ${prefix}summersand *Akira*
-*✗⃝* ${prefix}horrorblood *Akira*
-*✗⃝* ${prefix}thunder *Akira*
+*✗⃝* ${prefix}coolgravity *BAYU OFC*
+*✗⃝* ${prefix}pornhub *BAYU OFC*
+*✗⃝* ${prefix}glitch *BAYU OFC*
+*✗⃝* ${prefix}avenger *BAYU OFC*
+*✗⃝* ${prefix}space *BAYU OFC*
+*✗⃝* ${prefix}ninjalogo *BAYU OFC*
+*✗⃝* ${prefix}marvelstudio *BAYU OFC*
+*✗⃝* ${prefix}lionlogo *BAYU OFC*
+*✗⃝* ${prefix}wolflogo *BAYU OFC*
+*✗⃝* ${prefix}steel3d *BAYU OFC*
+*✗⃝* ${prefix}wallgravity *BAYU OFC*
+*✗⃝* ${prefix}tiktok *BAYU OFC*
+*✗⃝* ${prefix}arcade8bit *BAYU OFC*
+*✗⃝* ${prefix}battlefield4 *BAYU OFC*
+*✗⃝* ${prefix}pubg *BAYU OFC*
+*✗⃝* ${prefix}blackpink *BAYU OFC*
+*✗⃝* ${prefix}neon *BAYU OFC*
+*✗⃝* ${prefix}greenneon *BAYU OFC*
+*✗⃝* ${prefix}advanceglow *BAYU OFC*
+*✗⃝* ${prefix}futureneon *BAYU OFC*
+*✗⃝* ${prefix}sandwriting *BAYU OFC*
+*✗⃝* ${prefix}sandsummer *BAYU OFC*
+*✗⃝* ${prefix}sandengraved *BAYU OFC*
+*✗⃝* ${prefix}metaldark *BAYU OFC*
+*✗⃝* ${prefix}neonlight *BAYU OFC*
+*✗⃝* ${prefix}holographic *BAYU OFC*
+*✗⃝* ${prefix}text1917 *BAYU OFC*
+*✗⃝* ${prefix}minion *BAYU OFC*
+*✗⃝* ${prefix}deluxesilver *BAYU OFC*
+*✗⃝* ${prefix}newyearcard *BAYU OFC*
+*✗⃝* ${prefix}bloodfrosted *BAYU OFC*
+*✗⃝* ${prefix}halloween *BAYU OFC*
+*✗⃝* ${prefix}jokerlogo *BAYU OFC*
+*✗⃝* ${prefix}fireworksparkle *BAYU OFC*
+*✗⃝* ${prefix}natureleaves *BAYU OFC*
+*✗⃝* ${prefix}bokeh *BAYU OFC*
+*✗⃝* ${prefix}toxic *BAYU OFC*
+*✗⃝* ${prefix}strawberry *BAYU OFC*
+*✗⃝* ${prefix}box3d *BAYU OFC*
+*✗⃝* ${prefix}roadwarning *BAYU OFC*
+*✗⃝* ${prefix}breakwall *BAYU OFC*
+*✗⃝* ${prefix}icecold *BAYU OFC*
+*✗⃝* ${prefix}luxury *BAYU OFC*
+*✗⃝* ${prefix}cloud *BAYU OFC*
+*✗⃝* ${prefix}summersand *BAYU OFC*
+*✗⃝* ${prefix}horrorblood *BAYU OFC*
+*✗⃝* ${prefix}thunder *BAYU OFC*
 *✗⃝* ${prefix}shadow
 *✗⃝* ${prefix}cup
 *✗⃝* ${prefix}cup1
@@ -1388,16 +1388,16 @@ var imgs = await KirBotz.prepareMessage('0@c.us', qrgopay, image, { thumbnail: q
                         "productId": "4457725420906655",
                         "title": `All Menu`,
                         "description": menunyangen,
-                        "footerText": `©KirBotz`,
+                        "footerText": `©MIKASA-BOT`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "9999999999",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "999999999",
-                        "retailerId": `SUBSCRIBE YT : KirBotz×`,
-                        "url": "https://wa.me/6287705048235"
+                        "retailerId": `SUBSCRIBE YT : BAYU OFC`,
+                        "url": "https://wa.me/6289525518325"
                     },
-                    "businessOwnerJid": "6287705048235@s.whatsapp.net",
+                    "businessOwnerJid": "6289525518325@s.whatsapp.net",
                 }
             }, { quoted: fgi, mimetype: 'image/jpeg' })
             KirBotz.relayWAMessage(ctlg)
@@ -1716,7 +1716,7 @@ case 'nsfw_avatar':
                 but = [
                 { buttonId: `${prefix + command}`, buttonText: { displayText: 'NEXT☕' }, type: 1 }
                        ]
-                sendButImage(from, `RANDOM`, `KirBotz c٥ʷₚͦ៰ᷜ⍳٥ˢ`, hasil, but)
+                sendButImage(from, `RANDOM`, `Mikasa-bot c٥ʷₚͦ៰ᷜ⍳٥ˢ`, hasil, but)
                     break
 case 'wasted':
 		    var imgbb = require('imgbb-uploader')
@@ -1733,8 +1733,8 @@ case 'wasted':
 case 'cogan':
 reply(`✍️Tunggu Sebentar....`)
 buff = await getBuffer(`https://api.lolhuman.xyz/api/random/cogan?apikey=${lolkey}`)
-wmn = `🐧KirBotz`
-trans = `Subrek YT : KirBotz×`
+wmn = `🐧MIKASA-BOT`
+trans = `Subrek YT : BAYU OFC`
 but = [
           { buttonId: `${prefix}cogan`, buttonText: { displayText: '🔖 Next' }, type: 1 }
         ]
@@ -1743,8 +1743,8 @@ break
 case 'cecan':
 reply(`✍️Tunggu Sebentar....`)
 buff = await getBuffer(`https://api.lolhuman.xyz/api/random/cecan?apikey=${lolkey}`)
-wmn = `🐧KirBotz`
-trans = `Subrek YT : KirBotz×`
+wmn = `🐧MIKASA-BOT`
+trans = `Subrek YT : BAYU OFC`
 but = [
           { buttonId: `${prefix}cecan`, buttonText: { displayText: '🔖 Next' }, type: 1 }
         ]
@@ -1838,12 +1838,12 @@ ${wita} *𝑾𝒊𝒕𝒂*
 ${wit} *𝑾𝒊𝒕*
 Jam : *${time}*
 Runtime : *${runtime(process.uptime())}*
-𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ`, buttons: [{ buttonId: `${prefix}sewa1`, buttonText: { displayText: '🗿Ya' }, type: 1 },{ buttonId: `${prefix}gk`, buttonText: { displayText: '👀Tidak' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: nilogomenu, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
+MIKASA-BOT`, buttons: [{ buttonId: `${prefix}sewa1`, buttonText: { displayText: '🗿Ya' }, type: 1 },{ buttonId: `${prefix}gk`, buttonText: { displayText: '👀Tidak' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: nilogomenu, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'sewa1':
  listMsg = {
  buttonText: 'LIST SEWA',
- footerText: 'Lord KirBotz×',
+ footerText: 'Lord BAYU OFC',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih List Sewabot`,
  sections: [
                      {
@@ -1941,7 +1941,7 @@ case 'payment':
 case 'donasi':
  listMsg = {
  buttonText: 'PAYMENT',
- footerText: 'Lord KirBotz×',
+ footerText: 'Lord BAYU OFC',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih List Payment`,
  sections: [
                      {
@@ -2091,9 +2091,9 @@ ${tanggal}
 break
 case 'script':
 case 'sc':
-reply(`Mo Script Bot nya bang??
+reply(`Mo Script Bot nya bang?? gabisa aowwkowk
 Cek Yt Owner Ku
-https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg
+https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ
 `)
 break
 case 'rules':
@@ -2108,7 +2108,7 @@ menuh = `*Hai* 𝐊𝐚𝐤 @${sender.split("@")[0]}
       *sᴀɴᴋsɪ : ʙʟᴏᴄᴋ ᴘᴇʀᴍᴀɴᴇɴ*
 
 𒍮 𝑶𝒘𝒏𝒆𝒓 𝑩𝒐𝒕𝒛 ↓↓
-_*https://wa.me/6287705048235*_`
+_*https://wa.me/6289525518325*_`
 KirBotz.sendMessage(from, { contentText: `${menuh}`, footerText: `
 *Jika Sudah Paham Rules Nya Silahkan Pencet Di Bawah Jika Tidak Kelihatan Ketik .menu*
 ̵`, buttons: [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'メ Menu' }, type: 1 }], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: nilogorules, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
@@ -2129,15 +2129,15 @@ vcard2 = 'BEGIN:VCARD\n' +
             `item1.TEL;waid=${owner}:${owner}\n` +
             `item1.X-ABLabel:👑 Creator\n` +
             `item2.EMAIL;type=INTERNET:tesheroku123@gmail.com\n` +
-            `item2.X-ABLabel:📧 Email\n` +
-            `item3.URL:https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg/\n` +
+            `item2.X-ABLabel:📧 Bayurizkyananda888@gmail.com Email\n` +
+            `item3.URL:https://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQ\n` +
             `item3.X-ABLabel:⚙️ Channel Owner\n` +
             `item4.ADR:;;🇮🇩 Indonesia;;;;\n` +
             `item4.X-ABADR:ac\n` +
             `item4.X-ABLabel:🌍 Region\n` +
-            `item5.X-ABLabel:⚔️ Kir - Botz Developer\n` +
+            `item5.X-ABLabel:⚔️ BAYU OFC Developer\n` +
             'END:VCARD'.trim()
-KirBotz.sendMessage(from, {displayName: `Creator Akira`, vcard: vcard2}, contact, 
+KirBotz.sendMessage(from, {displayName: `Creator BAYU OFC`, vcard: vcard2}, contact, 
 { quoted: akira, 
 })
 menuh = `Hai Kak @${sender.split('@')[0]}`
@@ -2150,19 +2150,19 @@ buttons: [
 headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: nilogoowner, contextInfo: {mentionedJid: [sender, owner]}}}, 'buttonsMessage')
 break
 case 'ytowner':
-reply (`*Subrek Kak*\nhttps://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`)
+reply (`*Subrek Kak*\nhttps://youtube.com/channel/UCWiOXqGm9mPfPWlDntbMVdQm/`)
 break
 case 'igowner':
-reply (`*Follow Kak*\nhttps://www.instagram.com/kirbotzx/`)
+reply (`*Follow Kak*\nhttps://www.instagram.com/bayuganz_665/`)
 break
 case 'ttowner':
-reply (`*Follow Kak*\nhttps://vt.tiktok.com/ZSeuqHvL5/`)
+reply (`*Follow Kak*\nhttps://vt.tiktok.com/bayuganz_65/`)
 break
 case 'gtowner':
-reply (`*Follow Kak*\nhttps://github.com/KrBtz/`)
+reply (`*Follow Kak*\nhttps://github.com/BayuuOFC/`)
 break
 case 'gckirbotz':
-reply (`*Join Kak*\nhttps://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ`)
+reply (`*Join Kak*\nhttps://chat.whatsapp.com/Gj0kHatV2AoFyL2WyTTv2o`)
 break
 case 'bc':
              if (!akira.key.fromMe && !isOwner) return reply(`Bacot Ngentot`)
@@ -2178,8 +2178,8 @@ case 'bc':
              } else {
              for (let _ of anu) {
 KirBotz.sendMessage(_.jid, 
-	    {"contentText": `「 𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ 」\n\n${body.slice(4)}`,
-	    "footerText": `*𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ || ${tanggal}*`,
+	    {"contentText": `「 MIKASA-BOT 」\n\n${body.slice(4)}`,
+	    "footerText": `*MIKASA-BOT || ${tanggal}*`,
 	    "buttons": [
 	    {"buttonId": `.menu`,
 	    "buttonText": {"displayText": "MENU"
@@ -2810,7 +2810,7 @@ break
 case 'welcome':
         if (!akira.key.fromMe) return
         sendButMessage(from, `_*Silahkan Di Pilih*_`, `${tanggal}
-        「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」`, [
+        「 *MIKASA-BOT* 」`, [
           {
             buttonId: `${prefix}welco enable`,
             buttonText: {
@@ -2846,7 +2846,7 @@ case 'welco':
 case 'antilink':
         if (!akira.key.fromMe) return;
         sendButMessage(from, `_*Silahkan Di Pilih*_`, `${tanggal}
-        「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」`, [
+        「 *MIKASA-BOT* 」`, [
           {
             buttonId: `${prefix}anti enable`,
             buttonText: {
@@ -2884,7 +2884,7 @@ case 'anti':
 case 'antilinkyt':
         if (!akira.key.fromMe) return;
         sendButMessage(from, `_*Silahkan Di Pilih*_`, `${tanggal}
-        「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」`, [
+        「 *MIKASA-BOT* 」`, [
           {
             buttonId: `${prefix}antiyt enable`,
             buttonText: {
@@ -2922,7 +2922,7 @@ case 'antiyt':
 case 'antilinkwame':
         if (!akira.key.fromMe) return;
         sendButMessage(from, `_*Silahkan Di Pilih*_`, `${tanggal}
-        「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」`, [
+        「 *MIKASA-BOT* 」`, [
           {
             buttonId: `${prefix}antiwame enable`,
             buttonText: {
@@ -2960,7 +2960,7 @@ case 'antiwame':
 case 'antivirtex':
         if (!akira.key.fromMe) return;
         sendButMessage(from, `_*Silahkan Di Pilih*_`, `${tanggal}
-        「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」`, [
+        「 *MIKASA-BOT* 」`, [
           {
             buttonId: `${prefix}antivrtx enable`,
             buttonText: {
@@ -3015,7 +3015,7 @@ reply(`Succses kick target!`)
 break
 case 'group':
         sendButMessage(from, `_*Silahkan Di Pilih*_`, `${tanggal}
-        「 *𝕶𝖎𝖗𝕭𝖔𝖙𝖟ꪶ𖣂ꫂ* 」`, [
+        「 *MIKASA-BOT* 」`, [
           {
             buttonId: `${prefix}opengc`,
             buttonText: {
